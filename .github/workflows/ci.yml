@@ -19,7 +19,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '6.0'  # veya proje gereksinimlerinize göre uygun .NET sürümünü belirtin
+          dotnet-version: '3.1'  # veya proje gereksinimlerinize göre uygun .NET sürümünü belirtin
 
       - name: Restore dependencies
         run: dotnet restore
